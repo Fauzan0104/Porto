@@ -1,0 +1,28 @@
+.hero {
+    position: relative;
+    background-color: #f8f9fa;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+
+.navbar-nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar-nav li {
+        display: block;
+        margin: 0;
+        text-align: center;
+    }
+}
